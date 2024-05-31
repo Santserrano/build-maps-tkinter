@@ -20,7 +20,7 @@ pip install -r requirements.txt
 Clone el repositorio en su carpeta de proyecto e importe las funciones necesarias en `main.py` o su archivo de preferencia.
 En la parte superior del código, pegue la siguiente instrucción:
 
-```bash
+```python
 from engine.functions import mapa
 
 ```
@@ -28,7 +28,7 @@ from engine.functions import mapa
 Cree una variable para almacenar la ventana y llame a la función `mapa` pasando los siguientes argumentos.
 Se muestra del ejemplo `ejemplo.py`:
 
-```bash
+```python
 
 ventana = mapa(titulo, ancho, alto, coord_inicial, zoom_inicial, marcador_1, marcador_2)
 
@@ -36,7 +36,7 @@ ventana = mapa(titulo, ancho, alto, coord_inicial, zoom_inicial, marcador_1, mar
 ```
 
 Una muestra completa sobre una implementación correcta:
-```bash
+```python
 #Crear un mapa
 titulo = "Título de la ventana"    #Modifique el titulo
 ancho = 856                        # Ancho de la ventana
